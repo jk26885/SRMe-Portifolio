@@ -1,65 +1,77 @@
-# Security and Risk Management E-Portfolio
+# Security & Risk Management — E-Portfolio
 
-## About This E-Portfolio
+A unit-by-unit e-portfolio for the Security and Risk Management module,
+built to match the theme and structure of the previous (Advanced OOP)
+e-portfolio: same fonts, colours, card/section system, fixed sidebar
+nav, dark mode toggle, and live sidebar search.
 
-This e-portfolio documents my learning journey throughout the **Security and Risk Management** module. It brings together my unit reflections, learning activities and selected artefacts to demonstrate the development of my understanding of security risk management across the module.
+## Module
 
-At the start of the module, my aim was to strengthen the risk-management theory behind my professional experience in IT systems engineering, infrastructure, cybersecurity and disaster recovery. In particular, I wanted to develop a stronger understanding of how risks can be identified, assessed, modelled, communicated and managed in support of organisational decision-making and resilience.
+**Aims**
+- Discuss the difference between qualitative and quantitative risk assessments.
+- Describe how to carry out both kinds of assessments.
+- Explain what is meant by, and how to create, threat models.
+- Demonstrate how to create quantitative risk models.
+- Discuss and design Disaster Recovery (DR) solutions.
 
-## Module Aims
+**Objectives**
+- Describe when to use qualitative and quantitative risk assessments.
+- Create threat models for various scenarios.
+- Create quantitative risk models.
+- Design and explain DR strategies and solutions.
 
-The module aims to develop an understanding of how security risks can be identified, assessed and managed using qualitative and quantitative approaches. It also introduces threat modelling, quantitative risk modelling and the design and evaluation of Disaster Recovery (DR) solutions.
+## Page structure
 
-## My Objectives
+Every unit page (`units/unitNN.html`) follows the same model:
 
-During the module, I aim to develop my ability to:
+1. **Unit overview** — welcome text, "In this unit we shall…", "On completion of this unit you will be able to…" (from the module brief)
+2. **Tasks Done**
+3. **Reflection**
+4. **Outcome**
 
-- distinguish between **qualitative and quantitative risk assessment** and determine when each approach is appropriate;
-- conduct risk assessments using suitable methods and techniques;
-- identify threats, vulnerabilities and potential attack paths through **threat modelling**;
-- develop and interpret **quantitative risk models** to support informed decision-making;
-- evaluate, design and explain **Disaster Recovery strategies and solutions** based on organisational requirements; and
-- strengthen my ability to communicate security and risk information in a way that supports both technical and business decision-making.
+Units 1–4 are pre-filled with the overview content from the module
+brief. Units 5–12 currently contain placeholder text in square
+brackets, e.g. `[Add this unit's welcome / overview text here.]` —
+replace these as each unit's brief and your own work become available.
+The "Tasks Done", "Reflection", and "Outcome" cards on every unit are
+placeholders for you to fill in with your own work and reflections.
 
-## Portfolio Structure
+## Folder structure
 
-The portfolio is organised into **12 unit entries**, with each unit documenting the key topics, activities and reflections associated with that stage of the module.
+```
+srm-portfolio/
+├── index.html                Home page
+├── units/
+│   ├── unit01.html … unit12.html
+├── assets/
+│   ├── css/
+│   │   ├── styles.css        Base theme (shared with the OOP portfolio)
+│   │   └── dark.css          Dark mode overrides
+│   └── js/
+│       ├── app.js            Theme toggle, persisted in localStorage
+│       └── search.js         Filters the sidebar nav as you type
+└── README.md
+```
 
-Each unit page generally includes:
+## Running it locally
 
-- **Unit Objectives**
-- **My Objectives**
-- **Tasks Completed**
-- **Unit Reflection**
-- **Unit Outcome**
+No build step required — open `index.html` directly in a browser, or
+serve the folder with a local server (e.g. VS Code's Live Server
+extension, or `python3 -m http.server` from inside `srm-portfolio/`).
 
+## Hosting on GitHub Pages
 
-Rather than reproducing every activity completed during the module, the portfolio focuses on selected evidence that best demonstrates my learning and development.
+1. Push this folder's contents to a GitHub repository.
+2. Settings → Pages → Source: `Deploy from a branch`, branch `main`,
+   folder `/ (root)`.
+3. Your site will be live at
+   `https://<your-username>.github.io/<your-repo-name>/` within a
+   minute or two.
 
-## Key Areas of Learning
+## Updating a unit page
 
-Across the module, the portfolio explores themes including:
-
-- qualitative and quantitative risk assessment;
-- threat modelling and attack paths;
-- security risk frameworks and methodologies;
-- vulnerability assessment and prioritisation;
-- quantitative modelling and uncertainty;
-- Monte Carlo simulation and risk analysis;
-- business continuity and Disaster Recovery;
-- organisational resilience;
-- legal, ethical, social and professional considerations; and
-- emerging developments in security and risk management.
-
-## Professional Context
-
-My professional background in enterprise IT provides an important context for this portfolio. I work with infrastructure, identity, cloud services, cybersecurity and Disaster Recovery, and I participate in DR exercises as part of my professional responsibilities. The module provides an opportunity to examine these practical experiences through a more structured risk-management perspective and to consider how academic concepts, frameworks and analytical techniques can inform professional practice.
-
-## Reflection
-
-In addition to the individual unit entries, the portfolio includes a final reflective piece structured around **What?**, **So What?** and **Now What?**. This reflection considers how my understanding developed across the module, the challenges encountered, my contribution to collaborative activities and how I intend to apply the learning in my professional practice.
-
----
-
-**Security and Risk Management E-Portfolio**  
-*Units 1–12*
+Each unit page is plain HTML using the same `<section class="section">`
+/ `<div class="card">` pattern throughout — copy the pattern used in
+`unit01.html` if you want to add more cards (e.g. code snippets, stat
+grids, or diagrams) to a later unit, exactly as done in the previous
+OOP portfolio's week pages.

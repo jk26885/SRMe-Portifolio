@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security &amp; Risk Management Portfolio — Module Reflection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/dark.css">
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/search.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Security &amp; Risk Management Portfolio</a>
+  <div class="nav-search">
+    <input id="nav-search-input" type="text" placeholder="Search units..." autocomplete="off">
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li data-keywords="definitions risk management concepts risk management process standards"><a href="units/unit01.html">Unit 1: Introduction</a></li>
+    <li data-keywords="risk management process qualitative quantitative assessment user participation mitigation"><a href="units/unit02.html">Unit 2: RMP &amp; Assessments</a></li>
+    <li data-keywords="threat modelling stride dread attack trees pasta threats vulnerabilities cookbooks"><a href="units/unit03.html">Unit 3: Threat Modelling Intro</a></li>
+    <li data-keywords="threat modelling manifesto owasp cookbook mitre att&amp;ck tools scenarios"><a href="units/unit04.html">Unit 4: Applying Threat Modelling</a></li>
+    <li data-keywords="standards industry enterprise directives compliance"><a href="units/unit05.html">Unit 5: Industry &amp; Enterprise Standards</a></li>
+    <li data-keywords="gdpr pci-dss compliance case studies standards mitigations"><a href="units/unit06.html">Unit 6: GDPR &amp; Compliance Standards</a></li>
+    <li data-keywords="quantitative risk modelling qrm monte carlo bayes topsis ahp anp mcda"><a href="units/unit07.html">Unit 7: Quantitative Risk Modelling</a></li>
+    <li data-keywords="qrm implementation monte carlo bayes case studies project management safety"><a href="units/unit08.html">Unit 8: Implementing QRM</a></li>
+    <li data-keywords="business continuity disaster recovery bc dr bia rto rpo information risk"><a href="units/unit09.html">Unit 9: Business Continuity &amp; DR</a></li>
+    <li data-keywords="dr implementation rpo rto draas vendor lock-in resilience standby"><a href="units/unit10.html">Unit 10: Practical DR Implementation</a></li>
+    <li data-keywords="future trends emerging srm ai automation economic theory"><a href="units/unit11.html">Unit 11: Future Trends in SRM</a></li>
+    <li data-keywords="debate future trends srm wiki vote emerging"><a href="units/unit12.html">Unit 12: The Great Debate</a></li>
+    <li data-keywords="reflection critical rolfe rpo rto evaluation"><a href="reflection.html" class="active">Reflection</a></li>
+    <li data-keywords="harvard citations bibliography references"><a href="references.html">References</a></li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">● Dark mode</button>
+</nav>
+<div class="wrapper">
+  <section class="section" id="title">
+    <div class="section-header">
+      <span class="section-num">Reflection</span>
+      <h2>Critical Reflection on Security and Risk Management</h2>
+    </div>
+  </section>
+  <section class="section" id="what">
+    <div class="section-header">      
+      <h2>What?</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">This module developed my understanding of Security and Risk Management from a primarily technical and operational perspective into a broader, risk-informed approach incorporating organisational context, uncertainty, business impact, resilience and governance. As an IT systems engineer with experience in infrastructure, cybersecurity and disaster recovery exercises, the learning activities encouraged me to question how risks should be assessed, prioritised and communicated. This broader perspective reflects the view that information risk management should connect technical controls with organisational objectives and decision-making (Sutton, 2021).</p>
+      <p style="color:var(--ink-2);">The module combined individual research, discussion activities, quantitative modelling and team-based project work. Key activities included evaluating risks associated with the digitalisation of the fictional Pampered Pets business, comparing vulnerability prioritisation approaches such as CVSS, EPSS and SSVC, applying quantitative risk concepts, and examining business continuity and disaster recovery. Reviewing different methods also showed that a risk-management framework should be selected according to organisational requirements rather than adopted as a universal solution (Marks et al., 2019).</p>
+      <p style="color:var(--ink-2);">My principal contribution to the Unit 6 team project was evaluating claims that an online presence could increase revenue by 50%, international sourcing could reduce costs by 24%, and failure to introduce online services could result in the loss of 33% of existing customers. I also contributed to the final recommendation by challenging precise claims supported by limited data. This was important because digitalisation and international sourcing introduce behavioural and supply-chain uncertainties that cannot be represented adequately by headline percentages alone (Fahimnia et al., 2019).</p>
+    </div>
+  </section>
+  <section class="section" id="so-what">
+    <div class="section-header">      
+      <h2>So What?</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">One of the most significant changes in my thinking concerned the relationship between measurement and certainty. Initially, I regarded quantitative approaches as more objective than qualitative assessments because they produce numerical results. Studying Monte Carlo simulation and Bayesian reasoning challenged this view by showing how a range of possible outcomes can be explored rather than relying on a single estimate (Eckstein and Riedmueller, 2002). A model may generate thousands of results, but their value still depends on data quality, assumptions and dependencies. Risk analysis should therefore communicate the strength of supporting knowledge rather than present uncertain estimates as facts (Aven and Thekdi, 2025).</p>
+      <p style="color:var(--ink-2);">This learning influenced my contribution to the Pampered Pets project. I initially felt pressure to provide definitive conclusions because the team needed a clear recommendation. However, accepting unsupported figures would have created false confidence. I learned to distinguish between indecision and transparency about uncertainty. Instead of accepting or rejecting the claims without qualification, I examined their assumptions and supported phased digitalisation so that evidence could be collected before wider transformation. This showed me that effective risk management supports defensible decisions despite uncertainty.</p>
+      <p style="color:var(--ink-2);">The vulnerability-management discussion produced another change in my perspective. CVSS offers a common way to communicate technical severity, but assessor judgement and organisational context affect how risks are interpreted and prioritised (Popov, Lyon and Hollcroft, 2022). Peer discussions reinforced the distinction between vulnerability severity and organisational risk. A critical vulnerability affecting an isolated, non-essential asset may not require the same priority as a lower-scoring vulnerability that is actively exploited and affects a business-critical service. Threat-modelling approaches, including attack trees, can add value by exposing possible attack paths and dependencies rather than assessing weaknesses in isolation (Aijaz and Nazir, 2024; Zografopoulos et al., 2021).</p>
+      <p style="color:var(--ink-2);">I initially viewed EPSS as a stronger replacement for CVSS because it considers exploitation likelihood. Peer contributions encouraged me to reconsider this position. EPSS does not fully represent consequences, while SSVC depends on accurate contextual information and effective governance. My final position was therefore more balanced: CVSS can describe technical severity, EPSS can indicate exploitation probability, and SSVC can support contextual remediation decisions. Engaging with alternative arguments developed my understanding and made me more conscious of avoiding overreliance on any single score professionally.</p>
+      <p style="color:var(--ink-2);">The group project similarly strengthened my understanding of collaboration. Dividing the report into sections made the workload manageable but risked producing a fragmented submission. Individual sections needed consistent assumptions, terminology and risk methodology. Completing my allocated section was not sufficient; I also needed to understand how it connected with the team’s assessment and recommendations. Differing interpretations and the word limit created tension between sufficient analysis and concision. I responded by clarifying my reasoning and supporting recommendations aligned with the wider report. In future teamwork, I would agree common assumptions, scoring criteria and document structure earlier.</p>
+      <p style="color:var(--ink-2);">The study of business continuity and disaster recovery was relevant to my professional experience because I participate in DR exercises at work. Previously, I regarded successful system restoration as the principal measure of a successful exercise. The module encouraged me to examine recovery more critically. A system may be restored while the business service remains unavailable because identity, networking, data or external dependencies have not recovered. Mission-thread analysis similarly emphasises understanding how interdependent technical components support operational outcomes (Corbari, 2024). Recovery should therefore be assessed against business-defined RTOs and RPOs rather than technical completion alone.</p>
+      <p style="color:var(--ink-2);">The work on Disaster Recovery as a Service also challenged the assumption that cloud-based recovery automatically provides resilience. Cloud services may improve recovery capability, but they can introduce network dependencies, security risks and vendor lock-in (Kumar, 2024). Cloud-based recovery must therefore be evaluated against organisational requirements and tested for availability rather than treated as inherently resilient (Alhazmi and Malaiya, 2013; Andrade et al., 2017). I now view DR exercises as opportunities to test assumptions and interdependencies, not merely to demonstrate that documented procedures can be followed.</p>
+    </div>
+  </section>
+  <section class="section" id="now-what">
+    <div class="section-header">      
+      <h2>Now What?</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">The module will influence how I approach security and risk decisions professionally. When reviewing vulnerabilities, I will consider technical severity alongside exploitation likelihood, asset criticality, exposure, attack paths and business impact. When using quantitative models, I will document assumptions, data limitations and uncertainty instead of allowing numerical outputs to create unjustified confidence.</p>
+      <p style="color:var(--ink-2);">In future DR exercises, I will place greater emphasis on whether end-to-end business services meet their RTO and RPO requirements. I will also consider dependencies such as identity, networking, cloud services and third-party platforms and use exercise outcomes to identify measurable improvements.</p>
+      <p style="color:var(--ink-2);">I believe AI and automation will significantly influence the future of Security and Risk Management because they can analyse security information at a scale and speed that manual processes cannot easily match (Ridley, McCloskey and Mountain, 2018). Nevertheless, automated decisions remain dependent on data quality, model assumptions and governance. My main learning is that security and risk management requires resilience as well as prevention, while tools, models and automation should enhance rather than replace professional judgement. Going forward, I will combine technical evidence, quantitative analysis and automation with organisational context, transparent communication and critical human oversight.</p>
+    </div>
+  </section>
+  <section class="section" id="references">
+    <div class="section-header">      
+      <h2>References</h2>
+    </div>
+    <div class="card">
+      <ul style="color:var(--ink-2); list-style:none; padding-left:0; margin:0;">
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Aijaz, M. and Nazir, M. (2024) ‘Modelling and analysis of social engineering threats using the attack tree and the Markov model’, <em>International Journal of Information Technology</em>, 16(2), pp. 1231–1238. Available at: <a href="https://doi.org/10.1007/s41870-023-01540-z" target="_blank" rel="noopener">https://doi.org/10.1007/s41870-023-01540-z</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Alhazmi, O.H. and Malaiya, Y.K. (2013) ‘Evaluating disaster recovery plans using the cloud’, <em>2013 Proceedings Annual Reliability and Maintainability Symposium (RAMS)</em>, pp. 1–6. Available at: <a href="https://doi.org/10.1109/RAMS.2013.6517700" target="_blank" rel="noopener">https://doi.org/10.1109/RAMS.2013.6517700</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Andrade, E., Nogueira, B., Matos, R., Callou, G. and Maciel, P. (2017) ‘Availability modeling and analysis of a disaster-recovery-as-a-service solution’, <em>Computing</em>, 99(10), pp. 929–954. Available at: <a href="https://doi.org/10.1007/s00607-017-0539-8" target="_blank" rel="noopener">https://doi.org/10.1007/s00607-017-0539-8</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Aven, T. and Thekdi, S. (2025) <em>Risk Science</em>. Abingdon: Routledge. Chapter 7. Available at: <a href="https://doi.org/10.4324/9781003494317" target="_blank" rel="noopener">https://doi.org/10.4324/9781003494317</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Corbari, G.I., Khatod, N., Popiak, J.F. and Sinclair, P. (2024) ‘Mission thread analysis: Establishing a common framework in a multi-discipline domain to enhance defensive cyberspace operations’, <em>The Cyber Defense Review</em>. Available at: <a href="https://cyberdefensereview.army.mil/CDR-Content/Articles/Article-View/Article/3757127/mission-thread-analysis-establishing-a-common-framework-in-a-multi-discipline-d/" target="_blank" rel="noopener">https://cyberdefensereview.army.mil/CDR-Content/Articles/Article-View/Article/3757127/mission-thread-analysis-establishing-a-common-framework-in-a-multi-discipline-d/</a> (Accessed: 9 October 2026).</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Eckstein, J. and Riedmueller, S.T. (2002) ‘YASAI: Yet another add-in for teaching elementary Monte Carlo simulation in Excel’, <em>INFORMS Transactions on Education</em>, 2(2), pp. 12–26. Available at: <a href="https://doi.org/10.1287/ited.2.2.12" target="_blank" rel="noopener">https://doi.org/10.1287/ited.2.2.12</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Fahimnia, B., Pournader, M., Siemsen, E., Bendoly, E. and Wang, C. (2019) ‘Behavioral operations and supply chain management: A review and literature mapping’, <em>Decision Sciences</em>, 50(6), pp. 1127–1183. Available at: <a href="https://doi.org/10.1111/deci.12369" target="_blank" rel="noopener">https://doi.org/10.1111/deci.12369</a>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Kumar, A. (2024) <em>Cloud vendor lock-in: Identify, strategies and mitigate</em>. Available at: <a href="https://www.ossbig.at/wp-content/uploads/2024/09/CAN_Final_Report-VendorLock-In.pdf" target="_blank" rel="noopener">https://www.ossbig.at/wp-content/uploads/2024/09/CAN_Final_Report-VendorLock-In.pdf</a> (Accessed: 4 October 2026).</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Marks, L. et al. (2019) ‘The optimal risk management framework: Identifying the requirements and selecting the framework’, <em>ISACA Journal</em>, 1. Available at: <a href="https://www.isaca.org/resources/isaca-journal/issues/2019/volume-1/the-optimal-risk-management-framework-identifying-the-requirements-and-selecting-the-framework" target="_blank" rel="noopener">https://www.isaca.org/resources/isaca-journal/issues/2019/volume-1/the-optimal-risk-management-framework-identifying-the-requirements-and-selecting-the-framework</a> (Accessed: 19 October 2026).</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Popov, G., Lyon, B.K. and Hollcroft, B.D. (2021) <em>Risk assessment: A practical guide to assessing operational risks</em>. 2nd edn. Hoboken, NJ: John Wiley &amp; Sons. Available at: <a href="https://www.wiley.com/en-us/Risk+Assessment%3A+A+Practical+Guide+to+Assessing+Operational+Risks%2C+2nd+Edition-p-9781119798323" target="_blank" rel="noopener">https://www.wiley.com/en-us/Risk+Assessment%3A+A+Practical+Guide+to+Assessing+Operational+Risks%2C+2nd+Edition-p-9781119798323</a> (Accessed: 11 October 2026).</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Ridley, A. (2018) ‘Machine learning for autonomous cyber defense’, <em>The Next Wave</em>, 22(1), pp. 7–14. Available at: <a href="https://www.govinfo.gov/content/pkg/GPO-TNW-22-1-2018/pdf/GPO-TNW-22-1-2018-3.pdf" target="_blank" rel="noopener">https://www.govinfo.gov/content/pkg/GPO-TNW-22-1-2018/pdf/GPO-TNW-22-1-2018-3.pdf</a> (Accessed: 7 October 2026).</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Sutton, D. (2021) <em>Information risk management</em>.</li>
+        <li style="padding-left:2em; text-indent:-2em; margin-bottom:0.6em; overflow-wrap:anywhere;">Zografopoulos, I., Ospina, J., Liu, X. and Konstantinou, C. (2021) ‘Cyber-physical energy systems security: Threat modeling, risk assessment, resources, metrics, and case studies’, <em>IEEE Access</em>, 9, pp. 29775–29818. Available at: <a href="https://doi.org/10.1109/ACCESS.2021.3058403" target="_blank" rel="noopener">https://doi.org/10.1109/ACCESS.2021.3058403</a>.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+<footer>Security &amp; Risk Management Portfolio &middot; E-Portfolio</footer>
+
+</body>
+</html>
