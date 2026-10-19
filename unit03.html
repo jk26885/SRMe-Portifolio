@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security &amp; Risk Management Portfolio — Unit 3: Threat Modelling Intro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/dark.css">
+<script src="../assets/js/app.js" defer></script>
+<script src="../assets/js/search.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="../index.html">Security &amp; Risk Management Portfolio</a>
+  <div class="nav-search">
+    <input id="nav-search-input" type="text" placeholder="Search units..." autocomplete="off">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li data-keywords="definitions risk management concepts risk management process standards"><a href="unit01.html">Unit 1: Introduction</a></li>
+    <li data-keywords="risk management process qualitative quantitative assessment user participation mitigation"><a href="unit02.html">Unit 2: RMP &amp; Assessments</a></li>
+    <li data-keywords="threat modelling stride dread attack trees pasta threats vulnerabilities cookbooks"><a href="unit03.html" class="active">Unit 3: Threat Modelling Intro</a></li>
+    <li data-keywords="threat modelling manifesto owasp cookbook mitre att&amp;ck tools scenarios"><a href="unit04.html">Unit 4: Applying Threat Modelling</a></li>
+    <li data-keywords="standards industry enterprise directives compliance"><a href="unit05.html">Unit 5: Industry &amp; Enterprise Standards</a></li>
+    <li data-keywords="gdpr pci-dss compliance case studies standards mitigations"><a href="unit06.html">Unit 6: GDPR &amp; Compliance Standards</a></li>
+    <li data-keywords="quantitative risk modelling qrm monte carlo bayes topsis ahp anp mcda"><a href="unit07.html">Unit 7: Quantitative Risk Modelling</a></li>
+    <li data-keywords="qrm implementation monte carlo bayes case studies project management safety"><a href="unit08.html">Unit 8: Implementing QRM</a></li>
+    <li data-keywords="business continuity disaster recovery bc dr bia rto rpo information risk"><a href="unit09.html">Unit 9: Business Continuity &amp; DR</a></li>
+    <li data-keywords="dr implementation rpo rto draas vendor lock-in resilience standby"><a href="unit10.html">Unit 10: Practical DR Implementation</a></li>
+    <li data-keywords="future trends emerging srm ai automation economic theory"><a href="unit11.html">Unit 11: Future Trends in SRM</a></li>
+    <li data-keywords="debate future trends srm wiki vote emerging"><a href="unit12.html">Unit 12: The Great Debate</a></li>
+    <li data-keywords="reflection critical rolfe rpo rto evaluation"><a href="../reflection.html">Reflection</a></li>
+    <li data-keywords="harvard citations bibliography references"><a href="../references.html">References</a></li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">● Dark mode</button>
+</nav>
+
+<div class="wrapper">
+
+  <!-- 1. Overview -->
+  <section class="section" id="overview">
+    <div class="section-header">
+      <span class="section-num">Unit 3</span>
+      <h2>Introduction to Threat Modelling and Management</h2>
+    </div>
+    <div class="card">
+      <p>In Unit 3, I explored threat modelling approaches including STRIDE, DREAD, Attack Trees and hybrid models such as the Process for Attack Simulation and Threat Analysis (PASTA), alongside threat modelling guides and cookbooks. The aim was to understand how organisations choose a framework based on their security requirements, system characteristics and risk management objectives. I also contacted other students to begin work on the group assignment.</p>
+    </div>
+  </section>
+
+  <!-- 2. Artefact -->
+  <section class="section" id="artefact">
+    <div class="section-header">
+      <span class="section-num">Artefact</span>
+      <h2>Data, Technology, Fairness and Accountability Discussion</h2>
+    </div>
+    <div class="card">
+      <h3>Activity: Initial discussion post and peer feedback</h3>
+      <p style="color:var(--ink-2);">In my initial post, I examined how digital technologies can support human rights investigations while also creating risks of bias, surveillance, misinterpretation and weakened accountability. Drawing on Hancock et al. (2024), I argued that digital evidence such as satellite imagery and AIS data cannot be interpreted effectively without local and contextual knowledge, and that participatory design, governance and independent oversight are needed to represent affected communities.</p>
+
+      <figure style="margin:1.5rem 0;">
+        <img src="../assets/img/unit03-discussion-post.png"
+             alt="Screenshot of my initial discussion post, 'The Impact of Data and Technology on Fairness and Accountability in Human Rights Investigations', posted on Monday 10 August 2026."
+             style="display:block; max-width:100%; height:auto; border:1px solid var(--border, #ccc); border-radius:6px;">
+        <figcaption style="color:var(--ink-2); font-size:0.85rem; margin-top:0.5rem;">Figure 1: Initial discussion post (10 August 2026).</figcaption>
+      </figure>
+
+      <p style="color:var(--ink-2);">Two peer responses extended my thinking. The first introduced practical safeguards, particularly Human-in-the-Loop (HITL) verification and privacy-preserving approaches. The second challenged me to consider how organisations can ensure community participation genuinely influences decisions rather than becoming a procedural exercise.</p>
+    </div>
+    <div class="card">
+      <h3>Evidence of learning</h3>
+      <p style="color:var(--ink-2);">My initial focus was on the ethical and governance risks of digital investigation. Peer feedback added practical safeguards and the quality of stakeholder participation, leading to a more balanced view: technology alone cannot ensure fairness or accountability, so technical controls must be combined with human judgement, contextual knowledge, governance and meaningful community involvement.</p>
+    </div>
+  </section>
+
+  <!-- 3. Reflection -->
+  <section class="section" id="reflection">
+    <div class="section-header">
+      <span class="section-num">Reflection</span>
+      <h2>Unit 3 Reflection</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">This unit introduced threat modelling as a structured, proactive way to identify security risks before they materialise. A key learning point was the distinction between vulnerabilities, which are weaknesses that may be exploited, and threats, which are the actors, events or circumstances capable of exploiting them. Vulnerabilities therefore need to be judged within their specific threat and organisational context.</p>
+      <p style="color:var(--ink-2);">The methodologies showed that no single approach suits every situation: STRIDE identifies technical threats, Attack Trees map possible attack paths, and PASTA links vulnerabilities to business objectives. Selection should reflect the system, organisational objectives and available resources. Combining techniques felt particularly relevant to my professional experience with hybrid infrastructure, where cloud services, networks, applications and third-party dependencies all interact.</p>
+      <p style="color:var(--ink-2);">Most importantly, the unit reinforced the value of threat analysis early in the system lifecycle. Identifying weaknesses during design supports security by design and strengthened my ability to analyse systems from an attacker’s perspective.</p>
+    </div>
+  </section>
+
+  <!-- 4. Outcome -->
+  <section class="section" id="outcome">
+    <div class="section-header">
+      <span class="section-num">Outcome</span>
+      <h2>Unit Outcome</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">I can now distinguish clearly between threats and vulnerabilities, select and combine threat modelling techniques to suit different contexts, and explain how integrating them into system design supports secure, resilient and well-governed technology environments.</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>Security &amp; Risk Management Portfolio &middot; E-Portfolio</footer>
+
+</body>
+</html>

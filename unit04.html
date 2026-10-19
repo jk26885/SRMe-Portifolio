@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security &amp; Risk Management Portfolio — Unit 4: Applying Threat Modelling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/dark.css">
+<script src="../assets/js/app.js" defer></script>
+<script src="../assets/js/search.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="../index.html">Security &amp; Risk Management Portfolio</a>
+  <div class="nav-search">
+    <input id="nav-search-input" type="text" placeholder="Search units..." autocomplete="off">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li data-keywords="definitions risk management concepts risk management process standards"><a href="unit01.html">Unit 1: Introduction</a></li>
+    <li data-keywords="risk management process qualitative quantitative assessment user participation mitigation"><a href="unit02.html">Unit 2: RMP &amp; Assessments</a></li>
+    <li data-keywords="threat modelling stride dread attack trees pasta threats vulnerabilities cookbooks"><a href="unit03.html">Unit 3: Threat Modelling Intro</a></li>
+    <li data-keywords="threat modelling manifesto owasp cookbook mitre att&amp;ck tools scenarios"><a href="unit04.html" class="active">Unit 4: Applying Threat Modelling</a></li>
+    <li data-keywords="standards industry enterprise directives compliance"><a href="unit05.html">Unit 5: Industry &amp; Enterprise Standards</a></li>
+    <li data-keywords="gdpr pci-dss compliance case studies standards mitigations"><a href="unit06.html">Unit 6: GDPR &amp; Compliance Standards</a></li>
+    <li data-keywords="quantitative risk modelling qrm monte carlo bayes topsis ahp anp mcda"><a href="unit07.html">Unit 7: Quantitative Risk Modelling</a></li>
+    <li data-keywords="qrm implementation monte carlo bayes case studies project management safety"><a href="unit08.html">Unit 8: Implementing QRM</a></li>
+    <li data-keywords="business continuity disaster recovery bc dr bia rto rpo information risk"><a href="unit09.html">Unit 9: Business Continuity &amp; DR</a></li>
+    <li data-keywords="dr implementation rpo rto draas vendor lock-in resilience standby"><a href="unit10.html">Unit 10: Practical DR Implementation</a></li>
+    <li data-keywords="future trends emerging srm ai automation economic theory"><a href="unit11.html">Unit 11: Future Trends in SRM</a></li>
+    <li data-keywords="debate future trends srm wiki vote emerging"><a href="unit12.html">Unit 12: The Great Debate</a></li>
+    <li data-keywords="reflection critical rolfe rpo rto evaluation"><a href="../reflection.html">Reflection</a></li>
+    <li data-keywords="harvard citations bibliography references"><a href="../references.html">References</a></li>
+  </ul>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">● Dark mode</button>
+</nav>
+
+<div class="wrapper">
+
+  <section class="section" id="overview">
+    <div class="section-header">
+      <span class="section-num">Unit 4</span>
+      <h2>Application of Threat Modelling and Management Techniques</h2>
+    </div>
+    <div class="card">
+      <p>This unit focused on developing an understanding of threat modelling as a core cybersecurity practice.</p>
+    </div>
+    <div class="card">
+      <h3>Unit Objectives: I aimed to:</h3>
+      <ul style="padding-left: 1.25rem; margin: 0;">
+        <li>Discuss the tools and resources used in threat modelling and management.</li>
+        <li>Evaluate publicly available threat modelling tools and frameworks.</li>
+        <li>Create and analyse threat models based on realistic scenarios.</li>
+        <li>Identify and select appropriate threat modelling techniques for different situations.</li>
+        <li>Critically evaluate the strengths and limitations of threat modelling approaches.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>In this unit I was able to:</h3>
+      <ul style="padding-left: 1.25rem; margin: 0;">
+        <li>Describe where to find the key tools and resources used for threat modelling.</li>
+        <li>Explain how to select the most appropriate tool for various situations.</li>
+        <li>Critically evaluate the use of such tools.</li>
+      </ul>
+    </div>
+  </section>
+ <section class="section" id="tasks">
+  <div class="section-header">
+    <span class="section-num">Unit 4</span>
+    <h2>Tasks Done</h2>
+  </div>
+  <div class="card">
+    <p style="color:var(--ink-2);">
+      I completed the required reading on threat modelling methodologies, systems security engineering, threat modelling frameworks, and risk management. Key resources included Threat Modeling: A Summary of Available Methods, Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems, the Threat Model Cookbook, and Chapter 3 of Improving Web Application Security: Threats and Countermeasures.
+      I explored several threat modelling techniques including:
+    </p>
+    <ul style="color:var(--ink-2); margin-left: 20px; padding-left: 20px;">
+      <li>STRIDE</li>
+      <li>Attack Trees</li>
+      <li>DREAD</li>
+      <li>CVSS</li>
+      <li>MITRE ATT&CK</li>
+      <li>OWASP Threat Modelling resources</li>
+    </ul>
+    <p style="color:var(--ink-2);">
+      Through these activities, I examined how threat models are constructed, how threats are categorised, and how risks can be prioritised and mitigated during system design. I also reviewed practical examples from the OWASP Threat Model Cookbook to understand how threat modelling can be applied to real-world systems.
+    </p>
+  </div>
+</section>
+  <section class="section" id="reflection">
+    <div class="section-header">
+      <span class="section-num">Reflection</span>
+      <h2>Unit 4 Reflection</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">This unit has strengthened my understanding of how threat modelling supports secure system design and risk management. As an IT Systems Engineer working with enterprise infrastructure, cloud platforms and identity systems, I frequently assess technical risks when implementing new services or architectural changes. The structured approaches introduced this week provide a more formal and repeatable way to identify threats, evaluate attack paths and implement appropriate controls.
+
+I found the relationship between threat modelling and systems security engineering particularly valuable. In practice, security is often viewed as a separate activity that occurs late in a project. This unit reinforced the importance of integrating threat modelling into planning, design and architecture phases to reduce risk and improve security outcomes.
+
+The MITRE ATT&CK framework and OWASP Threat Model Cookbook were especially useful because they bridge the gap between theory and practice. They demonstrate how threat intelligence and reusable threat models can be applied to real-world scenarios and support more informed security decisions.
+
+</p>
+    </div>
+  </section>
+  <section class="section" id="outcome">
+    <div class="section-header">
+      <span class="section-num">Outcome</span>
+      <h2>Unit Outcome</h2>
+    </div>
+    <div class="card">
+      <p style="color:var(--ink-2);">Overall, I achieved the unit learning outcomes by identifying key threat modelling resources, evaluating different modelling approaches, understanding how to choose appropriate techniques for various scenarios, and critically assessing their effectiveness. I believe these skills will be directly applicable to future cybersecurity assessments, cloud architecture reviews and secure system design activities.</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>Security &amp; Risk Management Portfolio &middot; E-Portfolio</footer>
+
+</body>
+</html>
